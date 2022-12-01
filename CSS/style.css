@@ -5,10 +5,8 @@ body{
     height: 100vh;
     background: linear-gradient(
       to top,
-      rgb(21, 126, 179) 20%,
       rgb(21, 126, 179) 80vh,
-      rgb(226, 230, 237) 20%,
-      rgb(226, 230, 237) 80%
+      rgb(246, 249, 255) 75%
     );
   } 
   
@@ -47,3 +45,11 @@ body{
     object-fit: cover;
 }
 
+.skills {
+    display: flex;
+    justify-content: center;
+}
+.competent-skills {
+    width: 12rem; 
+    height: auto;
+}
