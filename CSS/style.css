@@ -1,13 +1,18 @@
 
+*{
+    padding:0;
+    margin:0;
+}
 
-body{
-    width: 100%;
+.container{
     height: 100vh;
     background: linear-gradient(
       to top,
-      rgb(21, 126, 179) 80vh,
-      rgb(246, 249, 255) 75%
-    );
+      rgb(21, 126, 179) 0%,
+      rgb(21, 126, 179) 80%,
+      rgb(246, 249, 255) 80%,
+      rgb(246, 249, 255) 100%
+    )
   } 
 
 #name {
@@ -15,6 +20,8 @@ body{
     justify-content: center;
     font-family: "Alexandria", sans-serif;
     font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    
 }
 
 #title {
@@ -22,6 +29,7 @@ body{
     justify-content: center;
     font-family: "Alexandria", sans-serif;
     font-size: 1.4rem;
+    margin-top: 2rem;
 }
 
 #job-areas {
@@ -29,6 +37,7 @@ body{
     justify-content: center;
     font-family: "Alexandria", sans-serif;
     font-size: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .profile-photo {
@@ -46,21 +55,31 @@ body{
 
 .skills {
     display: flex;
-    flex-direction: column;
-    margin-left: 1.5rem;
-   
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-left: 1rem;
+    max-width: 18rem;
+    box-sizing: content-box;
 
 }
 .competent-skills {
     width: 5rem; 
     max-height: 20rem;
-    display: flex;
-    
+    display: flex; 
     margin-top: 9%;
    
 }
 
-#html5-list {
+#level-list {
     list-style:square;
-    max-width: 46vw;
+    max-width: 50vw;
+    margin-top: 3rem;
+    margin-left: 5.5vw;
+    font-family: "Alexandria", sans-serif;
+}
+
+.level-description {
+    display: flex;
+    text-align:center;
 }
