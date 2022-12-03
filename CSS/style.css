@@ -9,7 +9,6 @@ body{
       rgb(246, 249, 255) 75%
     );
   } 
-  
 
 #name {
     display: flex;
@@ -47,9 +46,21 @@ body{
 
 .skills {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin-left: 1.5rem;
+   
+
 }
 .competent-skills {
-    width: 12rem; 
-    height: auto;
+    width: 5rem; 
+    max-height: 20rem;
+    display: flex;
+    
+    margin-top: 9%;
+   
+}
+
+#html5-list {
+    list-style:square;
+    max-width: 46vw;
 }
