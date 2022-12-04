@@ -2,17 +2,28 @@
 *{
     padding:0;
     margin:0;
+    font-family: "Alexandria", sans-serif;
 }
 
+.sticky-header {
+    font-family: 'Bebas-Neue', sans-serif;
+    background-color: rgb(246, 249, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+}
 .container{
     background-image: linear-gradient(
-      to top,
-      rgb(21, 126, 179) 0%,
-      rgb(21, 126, 179) 90%,
-      rgb(246, 249, 255) 90%,
-      rgb(246, 249, 255) 100%
+      to bottom,
+      rgb(246, 249, 255) 0%,
+      rgb(246, 249, 255) 7%,
+      rgb(21, 126, 179) 7%,
+      rgb(21, 126, 179) 100%
+    
     );
-    height: 200vh;
+    height: 450vh;
   } 
 
 #name {
@@ -20,7 +31,9 @@
     justify-content: center;
     font-family: "Alexandria", sans-serif;
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+   
     
 }
 
@@ -54,6 +67,37 @@
     object-fit: cover;
 }
 
+.header-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.code-institute-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.code-institute {
+    width: 14rem;
+    height: auto;
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: #000000;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#diploma {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-top: 0.5rem;
+}
 .skills {
     display: flex;
     flex-wrap: wrap;
@@ -74,7 +118,7 @@
 }
 
 #level-list {
-    list-style:square;
+    list-style: square;
     max-width: 50vw;
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -85,3 +129,23 @@
 .level-description {
     font-size: 0.8rem;
 }
+
+
+#line-1 {
+  margin-top: 3rem;
+  height:1.5px;
+  border-width:0;
+  background-color:#000000;
+  max-width: 16rem;
+  margin-left: 1.5rem;
+     
+}
+#line-2 {
+    height:1.5px;
+    margin-top: 0.5rem;
+    border-width:0;
+    background-color:#000000;
+    max-width: 9rem;
+    margin-left: 5rem;
+       
+  }
