@@ -1,6 +1,5 @@
 
 *{
-    padding:0;
     margin:0;
     font-family: "Alexandria", sans-serif;
     color: rgb(246, 249, 255);
@@ -143,13 +142,46 @@
      
 }
 
+.frameworks {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 22rem;
+    margin-top: 1.5rem;
+
+}
 .competent-frameworks { 
     width: 8rem; 
     max-height: 160px;
     display: flex; 
     margin-top: 8%;
+    margin-left: 10%;
+}
+
+
+.framework-list {
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+    font-size: 0.7rem; 
+}
+
+#django {
+    margin-left: 0;
+    margin-right: 3.5rem;
+}
+
+
+.frameworks-container {
+    display: flex;
+   justify-content: space-around;
+}
+
+#django-container {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .framework-description {
-    font-size: 0.7rem;
+    display: flex;
+    justify-content: stretch;
 }
