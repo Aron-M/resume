@@ -75,7 +75,7 @@
 .header-1 {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 1.3rem;
     font-weight: 600;
@@ -192,4 +192,9 @@
     margin-left: 2rem;
  }
 
+.cms {
+    max-width: 12rem;
+    height: 6rem;
+    margin-top: 2rem;
+}
 
