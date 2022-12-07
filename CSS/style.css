@@ -76,7 +76,7 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 1.3rem;
     font-weight: 600;
 }
@@ -232,6 +232,7 @@
     color: #000000;
     text-decoration: none;
   }
+  
 
   @keyframes bn13bouncy {
     0% {
@@ -257,3 +258,12 @@
     }
   }
 
+  .cv {
+    display: flex;
+    justify-content: center;
+  }
+  .cv-pdf {
+    width: 14rem;
+    height: auto;
+    margin-top: 2rem;
+  }
